@@ -1,10 +1,12 @@
 # NeoArcadeOS
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/parteyyoungchildren-web/neoarcadeos/main/v1-final2.png" alt="NeoArcadeOS Interface" width="980" />
+  <img src="assets/neoarcadeos-banner.svg" alt="NeoArcadeOS banner" width="100%" />
 </div>
 
 <p align="center">
+  <img src="assets/neoarcadeos-logo.svg" alt="NeoArcadeOS logo" width="120" />
+  <br />
   <strong>Arcade power. Console simplicity. A new era of retro gaming.</strong>
 </p>
 
