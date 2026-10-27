@@ -1,0 +1,8 @@
+[1/4] reusing existing payload gamingos/build\rootfs.payload
+[2/4] apply overlay gamingos/overlay (14515 original entries)
+wrote gamingos/build\new-rootfs.cpio: 577707396 bytes (source 522461680); 2832 overlay paths
+[3/4] rebuilt archive: 17061 entries (was 14515)
+[4/4] compress -> gamingos/build/new-rootfs.gz
+      round-trip entries: 17061 OK
+      sizes: src=142867639 out=158601240 (1.11x)
+EXIT=0

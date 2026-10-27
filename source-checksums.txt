@@ -1,0 +1,4 @@
+a5470af6d4c07fefbe7736a055714a722fa6b1d9d02c3453f1b0e9f54f3fac32 *../slitaz-firefox-x86_64-cooking.iso
+e51c6e6a84ae6e6bb0fc2c87e197a0dfb43e24f8b13968461a5287924aefd76d *../Lakka-Generic.x86_64-3.4.img/Lakka-Generic.x86_64-3.4.img
+bff5c74c3a6a08c2c908784cc5d33c0d3ed225df24e9b83d09819be6b278d42b *../EmulationStation-1.0.2.zip
+497bc9d4d5846cb0eee71eaed2352d2350f789df3a913f423a3d6eed9ba428e8 *../attract-2.7.0.tar.gz

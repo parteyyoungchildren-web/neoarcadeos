@@ -1,0 +1,17 @@
+[1/4] reusing existing payload gamingos/build\rootfs.payload
+[2/4] apply overlay gamingos/overlay (14515 original entries)
+wrote gamingos/build\new-rootfs.cpio: 577727688 bytes (source 522461680); 2853 overlay paths
+[3/4] rebuilt archive: 17081 entries (was 14515)
+[4/4] compress -> gamingos/build/new-rootfs.gz
+      round-trip entries: 17081 OK
+      sizes: src=142867639 out=182855484 (1.28x)
+EXIT=0
+source: 20 files, 7 dirs, vol_id='SLITAZ_FIREFOX_X86_64'
+wrote gamingos/artifacts/gamingos-v0.1.iso (193077248 bytes)
+  replaced /BOOT/ROOTFS.GZ;1 with gamingos/build/new-rootfs.gz (182855484 bytes)
+verify: 22 files (source 20 + efiboot.img)
+  BIOS entry: lba=1570 sectors=4 media=0 bootable=0x88
+  EFI  entry: lba=34 sectors=6144 platform=0xef
+  rootfs present in tree: /BOOT/ROOTFS.GZ;1
+sha256 9f36ee0a14641b01b4914bed662719c8d0b9cd01290d9ed51f7f6fdd4d2e2996  gamingos/artifacts/gamingos-v0.1.iso
+ISO_EXIT=0

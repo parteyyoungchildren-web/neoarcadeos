@@ -1,0 +1,29 @@
+[1/4] reusing existing payload gamingos/build\rootfs.payload
+[2/4] apply overlay gamingos/overlay (14515 original entries)
+wrote gamingos/build\new-rootfs.cpio: 577731108 bytes (source 522461680); 2854 overlay paths
+[3/4] rebuilt archive: 17082 entries (was 14515)
+[4/4] compress -> gamingos/build/new-rootfs.gz
+      round-trip entries: 17082 OK
+      sizes: src=142867639 out=182856679 (1.28x)
+source: 20 files, 7 dirs, vol_id='SLITAZ_FIREFOX_X86_64'
+Traceback (most recent call last):
+  File "C:\Users\MR partey\Downloads\gamingos\scripts\build_iso.py", line 201, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\MR partey\Downloads\gamingos\scripts\build_iso.py", line 132, in main
+    out.add_directory(iso_path="/BOOT/ISOLINUX", rr_name="isolinux",
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      file_mode=0o40555)
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MR partey\AppData\Local\Programs\Python\Python315\Lib\site-packages\pycdlib\pycdlib.py", line 5562, in add_directory
+    num_bytes_to_add += self._add_child_to_dr(rec)
+                        ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\MR partey\AppData\Local\Programs\Python\Python315\Lib\site-packages\pycdlib\pycdlib.py", line 1980, in _add_child_to_dr
+    ret = child.parent.add_child(child, self.logical_block_size)
+  File "C:\Users\MR partey\AppData\Local\Programs\Python\Python315\Lib\site-packages\pycdlib\dr.py", line 902, in add_child
+    return self._add_child(child, logical_block_size, allow_duplicate, True)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MR partey\AppData\Local\Programs\Python\Python315\Lib\site-packages\pycdlib\dr.py", line 821, in _add_child
+    raise pycdlibexception.PyCdlibInvalidInput('Failed adding duplicate name to parent')
+pycdlib.pycdlibexception.PyCdlibInvalidInput: Failed adding duplicate name to parent
+EXIT=1
