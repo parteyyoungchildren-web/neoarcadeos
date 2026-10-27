@@ -107,9 +107,7 @@ If you want to help improve the emulator workflow, UI design, system setup, or p
 
 ## License
 
-This project is currently unlicensed. If you plan to distribute or share it publicly, adding an official open-source license is recommended.
-
-See the repository's license settings or add one through GitHub to define distribution rules.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Final Note
 
