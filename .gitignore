@@ -1,0 +1,27 @@
+# Git ignore patterns
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs and temporary output
+*.log
+*.tmp
+*.bak
+
+# Build output
+*.iso
+*.img
+*.zip
+*.tar
+*.gz
+
+# Local environment
+.env
+.env.*
+
+# Editor folders
+.vscode/
+.idea/
